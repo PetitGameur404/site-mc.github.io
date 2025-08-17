@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f7f7f2;
+    color: #222;
+    padding: 20px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* ← centre verticalement */
+    padding: 60px;
+    width: 100%;
+    min-height: 100vh;
+    gap: 40px;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-img {
+    flex: 1;
+    text-align: right;
+}
+
+.hero-img img {
+    width: 650px;
+    height: 650px;
+    
+}
+
+.hero h5 {
+    color: #5f3d2b;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.name {
+    text-decoration: underline;
+    color: #2a4824;
+}
+
+.hero p {
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #3f2e20;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    background-color: #2C7744;
+}
+
+.btn-outline {
+    border: 2px solid #3f2e20;
+    color: #3f2e20;
+    background: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline:hover {
+    background-color: #3f2e20;
+    color: white;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    width: 100%;
+    min-height: 500px;
+    gap: 10px;
+}
+
+
+
+.stat {
+    flex: 1;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.skills header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    padding: 60px;
+}
+
+.skills h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.skills h3 {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.skills-lang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+
+.skills-tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;  
+}
+
+.skills-tools h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.skills-lang p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.skills-tools p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 800px;
+    padding: 60px;
+}
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    gap: 20px;
+}
+
+
+.projects h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;     /* Pour centrer horizontalement */
+  flex-wrap: wrap;             /* Met les cartes en ligne, puis ligne suivante si trop large */
+  gap: 30px;                   /* Espace entre les cartes */
+  padding: 20px; 
+  
+}
+
+.card {
+  width: 290px;                /* Taille fixe pour chaque carte */
+  background-color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+}
+
+.card img {
+    width: 280px;
+    height: 225px;
+    flex: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+
+}
+
+.card header h2 {
+    font-size: 23px;
+    margin: 5px 0;
+}
+
+
+.card-content p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.btn-show-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 120px;
+    gap: 20px;
+    background-color: #2C7744;
+    color: white;
+}
+
+.contact {
+    align-items: center;
+    padding: 30px;
+}
+
+.contact-p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive (optionnel) */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text,
+    .hero-img {
+        max-width: 100%;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .hero-img {
+        text-align: center;
+    }
+}
+
